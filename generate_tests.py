@@ -50,7 +50,7 @@ ds_config = {
 }
 
 # Prepare the model with DeepSpeed
-model, _, _, _ = deepspeed.initialize(model=model, config=ds_config)
+# model, _, _, _ = deepspeed.initialize(model=model, config=ds_config)
 
 # Define the source and test directories
 source_dir = "/workspaces/copilot-eval/src/com/example/demo"
